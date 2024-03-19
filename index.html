@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViettelStore</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="top1">
+            <div class="inner">
+                <div class="tong-top1">
+                    <div class="hinhanh">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="timkiem">
+                        <input type="text" placeholder="Bạn muốn tìm kiếm gì">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        
+                    </div>
+                    <div class="giohang">
+                        <a href="giohang.html"><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng(<span id="soluong">0</span>)</a>
+                    </div>
+                    <!-- <div class="giohang">
+                        <a href="">Đăng Nhập | Đăng ký </a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="top2">
+            <div class="inner">
+                <div class="tong-top2">
+                <ul>
+                    <li><a href="#">Danh mục sản phẩm<i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">Tìm theo hãng<i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">Sim số và dịch vu<i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">Mua máy kèm gói cước<i class="fa-solid fa-mobile-screen-button"></i></a></li>
+                    <li><a href="#">Trả góp 0%<i class="fa-solid fa-piggy-bank"></i></a></li>
+                    <li><a href="#">Mua online giả rẻ<i class="fa-solid fa-fire"></i></a></li>
+                    <li><a href="#">Tin Tức</a></li>
+                </ul>  
+                </div>                
+            </div>
+        </div>
+        </div>
+        
+        <div class="banner1">
+            <div class="inner">
+                    <div class="left-banner1">
+                        <div class="box1">
+                            <i class="fa-sharp fa-solid fa-chevron-left" onclick="clickTrai()" ></i>
+                            <i class="fa-solid fa-chevron-right" onclick="clickPhai()"></i>
+                            <img id="anh" src="img/Main_PC_60417111907032023.jpg" alt="">
+                            
+                        </div>
+                        <div class="box2">
+                            <h3>Valentine Trắng
+                                <br>Ưu Đãi Tới 10 Triệu
+                            </h3>
+                        </div>
+                        <div class="box2">
+                            <h3>Redmi 12C
+                                <br>Giá Chỉ 3.190.000đ
+                            </h3>
+                        </div>
+                        <div class="box2">
+                            <h3>Đồng hồ trẻ em 
+                                <br>Chỉ từ 990.000đ
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="right-banner1">
+                        <div class="box1">
+                            <img id="anh-box1" src="img/BANNER_70054290801032023.jpg" alt="">
+                        </div>
+                        <div class="box1">
+                            <img id="anh-box2" src="img/BANNER_89520151127022023.jpg" alt="">
+                        </div>
+                        <div class="box2">
+                            <img src="img/BANNER_70054290801032023 (1).jpg" alt="">
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner2">
+            <div class="inner">
+                <div class="container-banner2">
+                    <img class="img1" src="img/sale2.png" alt="">
+                    <span>Săn sale cùng ViettelStore </span>
+                    <span>Sau</span> 
+                    <i class="fa-solid fa-angle-down"></i>
+                    <p id="demo"></p>
+                    <img class="img2" src="img/sale2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="banner2">
+            <div class="inner">
+                <h2>DANH MỤC NỔI BẬT</h2>
+                <div class="box">
+                    <img src="img/1.png" alt="">
+                    <br><a href="#"> Điện Thoại</a>
+                </div>
+                <div class="box">
+                    <img src="img/2.png" alt="">
+                    <br><a href="#"> Điện thoại<br>samsung</a>
+                </div>
+                <div class="box">
+                    <img src="img/3.png" alt="">
+                    <br><a href="#">Điện Thoại<br>iphone</a>
+                </div>
+                <div class="box">
+                    <img src="img/4.png" alt="">
+                    <br><a href="#">Laptop</a>
+                </div>
+                <div class="box">
+                    <img src="img/5.png" alt="">
+                    <br><a href="#">Máy tính bảng</a>
+                </div>
+                <div class="box">
+                    <img src="img/6.png" alt="">
+                    <br><a href="#">Sim - số thẻ cào</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner3">
+            <div class="inner" id="innerbox">
+                <!-- <div class="box-banner3">
+                    <a href="chitietip14.html">
+                        <div class="menu">
+                            <div class="text">
+                                <h4>iPhone 14 Pro Max 128GB</h4>
+                                <br><h3>27.999.000Đ<del>32.990.000₫</del></h3>
+                            </div>
+                            <div class="banchay">
+                                <h4>Bán chạy</h4>
+                            </div>
+                        </div>
+                        <div class="hinhanh">
+                            <img src="img/iP14-Pro-Max-020323.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="box-banner3">
+                    <a href="chitiet.html">
+                        <div class="menu">
+                            <div class="text">
+                                <h4>Samsung Galaxy S23 Ultra...</h4>
+                                <br><h3>26.999.000Đ<del>31.990.000₫</del></h3>
+                            </div>
+                            <div class="banchay">
+                                <h4>Bán chạy</h4>
+                            </div>
+                        </div>
+                        <div class="hinhanh">
+                            <img src="img/s23-ultra.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="box-banner3">
+                    <a href="chitietipflip.html">
+                        <div class="menu">
+                            <div class="text">
+                                <h4>Samsung Galaxy Z Flip4 5G 256GB</h4>
+                                <br><h3>17.999.000Đ<del>25.990.000₫</del></h3>
+                            </div>
+                            <div class="banchay">
+                                <h4>Bán chạy</h4>
+                            </div>
+                        </div>
+                        <div class="hinhanh">
+                            <img src="img/Z Flip1679625471.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="box-banner3">
+                    <a href="chitietip14.html">
+                        <div class="menu">
+                            <div class="text">
+                                <h4>iPhone 14 Pro Max 128GB</h4>
+                                <br><h3>27.999.000Đ<del>32.990.000₫</del></h3>
+                            </div>
+                            <div class="banchay">
+                                <h4>Bán chạy</h4>
+                            </div>
+                        </div>
+                        <div class="hinhanh">
+                            <img src="img/iP14-Pro-Max-020323.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="box-banner3">
+                    <a href="chitiet.html">
+                        <div class="menu">
+                            <div class="text">
+                                <h4>Samsung Galaxy S23 Ultra...</h4>
+                                <br><h3>26.999.000Đ<del>31.990.000₫</del></h3>
+                            </div>
+                            <div class="banchay">
+                                <h4>Bán chạy</h4>
+                            </div>
+                        </div>
+                        <div class="hinhanh">
+                            <img src="img/s23-ultra.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="box-banner3">
+                    <a href="chitietipflip.html">
+                        <div class="menu">
+                            <div class="text">
+                                <h4>Samsung Galaxy Z Flip4 5G 256GB</h4>
+                                <br><h3>17.999.000Đ<del>25.990.000₫</del></h3>
+                            </div>
+                            <div class="banchay">
+                                <h4>Bán chạy</h4>
+                            </div>
+                        </div>
+                        <div class="hinhanh">
+                            <img src="img/Z Flip1679625471.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="box-banner3">
+                    <a href="chitietip14.html">
+                        <div class="menu">
+                            <div class="text">
+                                <h4>iPhone 14 Pro Max 128GB</h4>
+                                <br><h3>27.999.000Đ<del>32.990.000₫</del></h3>
+                            </div>
+                            <div class="banchay">
+                                <h4>Bán chạy</h4>
+                            </div>
+                        </div>
+                        <div class="hinhanh">
+                            <img src="img/iP14-Pro-Max-020323.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="box-banner3">
+                    <a href="chitiet.html">
+                        <div class="menu">
+                            <div class="text">
+                                <h4>Samsung Galaxy S23 Ultra...</h4>
+                                <br><h3>26.999.000Đ<del>31.990.000₫</del></h3>
+                            </div>
+                            <div class="banchay">
+                                <h4>Bán chạy</h4>
+                            </div>
+                        </div>
+                        <div class="hinhanh">
+                            <img src="img/s23-ultra.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="box-banner3">
+                    <a href="chitietipflip.html">
+                        <div class="menu">
+                            <div class="text">
+                                <h4>Samsung Galaxy Z Flip4 5G 256GB</h4>
+                                <br><h3>17.999.000Đ<del>25.990.000₫</del></h3>
+                            </div>
+                            <div class="banchay">
+                                <h4>Bán chạy</h4>
+                            </div>
+                        </div>
+                        <div class="hinhanh">
+                            <img src="img/Z Flip1679625471.jpg" alt="">
+                        </div>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+        <div class="banner4">
+            <div class="inner">
+                <h2>ƯU ĐÃI THANH TOÁN</h2>
+                <div class="hinhanh">
+                    <img src="img/uu dai.jpg" alt="">
+                    <img src="img/uu dai1.jpg" alt="">
+                    <img src="img/uu dai.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="banner5">
+            <div class="inner">
+                <div class="box-banner5">
+                    <div class="giamgia">
+                        <p>-50%</p>
+                    </div>
+                    <div class="text">
+                        <img src="img/MTXT-Masstel-E140-1.jpg" alt="">
+                        <div class="cum-text">
+                            <h5>MTXT GIÁO DỤC Masstel E140</h5>
+                            <h3>4.990.00đ</h3>
+                            <h5>Ưu đãi khi mua tại viettel...</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="box-banner5">
+                    <div class="giamgia">
+                        <p>-50%</p>
+                    </div>
+                    <div class="text">
+                        <img src="img/MTXT-Acer-TravelMate-B3-1.jpg" alt="">
+                        <div class="cum-text">
+                            <h5>MTXT GIÁO DỤC Masstel E140</h5>
+                            <h3>4.990.00đ</h3>
+                            <h5>Ưu đãi khi mua tại viettel...</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-banner5">
+                    <div class="giamgia">
+                        <p>-50%</p>
+                    </div>
+                    <div class="text">
+                        <img src="img/MTXT-Dell-Inspiron-15-3511-Core-i5-1135G7-P112F001DBL-1.jpg" alt="">
+                        <div class="cum-text">
+                            <h5>MTXT GIÁO DỤC Masstel E140</h5>
+                            <h3>4.990.00đ</h3>
+                            <h5>Ưu đãi khi mua tại viettel...</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-banner5">
+                    <div class="giamgia">
+                        <p>-50%</p>
+                    </div>
+                    <div class="text">
+                        <img src="img/MTXT-Masstel-E116-1.jpg" alt="">
+                        <div class="cum-text">
+                            <h5>MTXT GIÁO DỤC Masstel E140</h5>
+                            <h3>4.990.00đ</h3>
+                            <h5>Ưu đãi khi mua tại viettel...</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-banner5">
+                    <div class="giamgia">
+                        <p>-50%</p>
+                    </div>
+                    <div class="text">
+                        <img src="img/MTXT-Masstel-E140-1.jpg" alt="">
+                        <div class="cum-text">
+                            <h5>MTXT GIÁO DỤC Masstel E140</h5>
+                            <h3>4.990.00đ</h3>
+                            <h5>Ưu đãi khi mua tại viettel...</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner6">
+            <div class="inner">
+                <div class="hinhanh">
+                    <img src="img/tra-gop-dm.jpg" alt="">
+                    <img src="img/trangchu-banner1-footer-pc-020223.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="box-footer">
+                <div class="box1">
+                    <ul>
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Chính sách giao hàng</a></li>
+                        <li><a href="#">Chính sách khui hộp</a></li>
+                        <li><a href="#">Phương thanh toán</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <ul>
+                        <li><a href="#">Quy chế hoạt động website</a></li>
+                        <li><a href="#">Siêu thị gần nhất (400 shop)</a></li>
+                        <li><a href="#">Tìm trung tâm bảo hành</a></li>
+                        <li><a href="#">Tra cứu hóa đơn</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <ul>
+                        <li><a href="#">Tư vấn bán hàng (8h - 22h) <br>
+                            <p> 1800 8123</p>
+                        </a></li>
+                        <li><a href="#">CSKH & bảo hành (8h - 22h) <br>
+                            <p> 1900 8096</p>
+                        </a></li>
+                        <li><a href="#">Tư vấn KHDN: <br>
+                            <p>02466599666</p> 
+                        </a></li>
+                        <li><a href="#">Khảo sát về thương hiệu Viettel Store</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <div class="dong1">
+                        <img src="img/bo-cong-thuong.png" alt="">
+                        <img src="img/logo.png" alt="">
+                        <img src="img/logo-vtmoney.png" alt="">
+                    </div>
+                    <div class="dong2">
+                        <img src="img/Banner_CTTDT_BQP1_02.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+        <script src="index.js"></script>
+</html>

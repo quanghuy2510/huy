@@ -1,0 +1,83 @@
+
+
+
+#khungbao{
+    width: 400px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+div.ten{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+input.mot{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 100px;
+    bottom:20px;
+}
+input.hai{
+    padding-right: 63px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 50px;
+    right: 65px;
+    display: block;
+}
+div.ba{
+    position: absolute;
+    bottom: 49px;
+    right: 60px;
+}
+div.ba>a:hover{
+    font-weight: bold;
+    color: rgb(75, 87, 32);
+}
+    div.ba>a{
+        text-decoration: none;
+        color: black;
+        position: relative;
+        top: 15px;
+        padding: 10px;
+        background-color: burlywood;
+        border-radius: 10px;
+    }
+
+
+.qmk{
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+}
+.qmk>div{
+    width: 120px;
+    display: inline-block;
+}
+.qmk>div>a{
+    position: absolute;
+    left:30px;
+    top: 6px;
+    text-decoration: none;
+}
+.qmk>div>a:hover{
+    color: rgb(42, 143, 27);
+    font-weight: bold;
+}
+
+.gif{
+    position: absolute;
+    top: -245px;
+    left: 422px;
+}
+

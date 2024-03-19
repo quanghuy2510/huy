@@ -1,0 +1,284 @@
+*{
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    min-height: 600px;
+    background-color: rgb(255, 255, 255);
+}
+.inner{
+    width: calc(100% - 300px);
+}
+.inner-banner{
+    width: calc(100% - 800px);
+}
+/* .top{
+    position: sticky;
+    z-index: 1;
+} */
+.top1{
+    width: 100%;
+    min-height: 45px;
+    background-color: #ee0033;
+    float: left;
+}
+    
+    .tong-top1{
+        display:flex;
+        line-height: 45px;
+    }
+    .tong-top1 .hinhanh{
+        display: flex;
+        align-items: center;
+        margin:0px 0px 0px 0px;
+        cursor: pointer;
+    }
+    .tong-top1 .hinhanh a{
+        display: flex;
+    }
+    /* .tong-top1 .timkiem{
+        display: flex;
+        align-items: center;
+    } */
+    .tong-top1 .timkiem input{
+        width: 400px;
+        height: 25px;
+        border-radius: 50px;
+        border: 0px solid white;
+        padding-left: 5px;
+    }
+    .tong-top1 .timkiem a{
+        position: relative;
+        right: 9%;
+        padding: 5px 8px 8px 10px;
+        border-radius: 0px 50px 50px 0px;
+        color: red;
+    }
+    .tong-top1 .timkiem input:focus{
+        
+    }
+    .tong-top1 .giohang{
+        margin: 0px 0px 0px 0px;
+    }
+    .tong-top1 .giohang a{
+        padding: 8px;
+        background-color: aliceblue;
+        border-radius: 50px;
+        text-decoration: none;
+        color: red;
+        margin-right: 5px;
+    }
+    .tong-top1 .giohang a i{
+        padding-right: 5px;
+    }
+
+
+    
+
+.top2{
+    width: 100%;
+    min-height: 45px;
+    background-color: #f01a48;float: left;
+}
+    .tong-top2 ul li{
+        float: left;
+        list-style-type: none;
+        line-height: 45px;
+    }
+    .tong-top2 ul{
+        padding-left: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .tong-top2 ul li a{
+        text-decoration: none;
+        display: block;
+        color: white;
+    }
+    .tong-top2 ul li a i{
+        margin-left: 5px;
+    }
+
+.banner{
+    width: 100%;
+    min-height: 500px;
+    background-color: #ffffff;float: left;
+}
+    .inner-banner .top{
+        min-height: 200px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 20px;
+    }
+    .inner-banner .top .box{
+        /* display: flex; */
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .inner-banner .top .gia {
+        position: relative;
+        top: 60px;
+    }
+
+    .inner-banner .top .gia .choosenumber{
+        display: flex;
+        position: relative;
+        width: 100%;
+        border: 2px solid #9f8f8f;
+        background: #fff;
+        border-radius: 5px;
+        line-height: 32px;
+        font-size: 14px;
+        color: #272222;
+        margin: 5px 0 5px 0;
+    }
+
+    .inner-banner .top .hinhanh .text-hinhanh{
+        width: 50%;
+        height: 30px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #bbbbbb;
+        border-radius: 15px;
+        color: white;
+    }
+    .inner-banner .top .text{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner-banner .top .text .text-text h3{
+        color: #337ab7;
+        margin-bottom: 10px;
+    } 
+    .inner-banner .top .text .mau select{
+        width: 40%;
+        text-align: center;
+        height: 35px;
+        border-radius: 10px;
+        color: #337ab7;
+        font-weight: bold;
+    }
+    .inner-banner .top .text .noidung{
+
+        color: grey;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .inner-banner .top .gia{
+        position: relative;
+        right: 4px;
+    }
+    .inner-banner .top .gia h3{
+        color: red;
+    }
+    .inner-banner .main .sum{
+        margin-top: 10px;
+        background-color: #ffffff;
+        display: flex;
+        width: 100%;
+    }
+    .inner-banner .main .sum .left{
+        width: 50%;
+        float: left;
+    }
+    .inner-banner .main .sum .left p{
+        margin: 10px 0px;
+    }
+    .inner-banner .main .sum .right{
+        width: 50%;
+        float: left;
+        text-align: right;
+    }
+    .inner-banner .main .sum .right p{
+        margin: 10px 0px;
+    }
+    .inner-banner .thanhtoan{
+         display: flex;
+         flex-direction:column;
+
+         margin-top: 10px;
+    }
+    .inner-banner .thanhtoan .text{
+        background-color: orange;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+    }
+    .inner-banner .thanhtoan .text1{
+        background-color: #337ab7;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+    }
+    .inner-banner .thanhtoan .text2{
+        font-weight: bold;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+    .inner-banner .thanhtoan .text2 p{
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+.footer{
+    width: 100%;min-height: 100px;
+    background-color: #dd0e3a;
+    float: left;
+}
+    .footer .box-footer{
+        width: calc(100% - 450px);
+    }
+    .footer .box-footer .box1{
+        width: 24%;
+        min-height: 100px;
+        float: left;
+        margin: 10px 2px;
+    }
+    .footer .box-footer .box1 ul{
+        list-style-type: none;
+        padding: 0;
+    }
+    .footer .box-footer .box1 ul li{
+        line-height:40px;
+        padding-left: 5px;
+    }
+    .footer .box-footer .box1 ul li a{
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+    .footer .box-footer .box1 ul li a p{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .footer .box-footer .box1 .dong1 img{
+        margin: 10px 0px;
+    }
+
+

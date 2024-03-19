@@ -1,0 +1,130 @@
+
+
+const dsanhss = [
+    'trang.jpeg',
+    'hong.jpeg',
+    'den.jpeg',
+    'xanh.jpeg'
+]
+
+function chonmauss(x){
+    switch (x) {
+        case 1:
+            document.querySelector("#hinhanh-main1").src = 'chitiet/'+dsanhss[0];
+            break;
+        case 2:
+            document.querySelector("#hinhanh-main1").src = 'chitiet/'+dsanhss[1];
+            break;
+        case 3:
+            document.querySelector("#hinhanh-main1").src = 'chitiet/'+dsanhss[2];
+            break;
+        case 4:
+            document.querySelector("#hinhanh-main1").src = 'chitiet/'+dsanhss[3];
+            break;
+    }
+}
+
+const dsanhip14 = [
+    '14trang.jpeg',
+    '14tim.jpeg',
+    '14den.jpeg',
+    '14vang.jpeg'
+]
+
+function chonmauip(x){
+    switch (x) {
+        case 1:
+            document.querySelector("#hinhanh-main1").src = 'chitiet/'+dsanhip14[0];
+            break;
+        case 2:
+            document.querySelector("#hinhanh-main1").src = 'chitiet/'+dsanhip14[1];
+            break;
+        case 3:
+            document.querySelector("#hinhanh-main1").src = 'chitiet/'+dsanhip14[2];
+            break;
+        case 4:
+            document.querySelector("#hinhanh-main1").src = 'chitiet/'+dsanhip14[3];
+            break;
+    }
+}
+
+const dsanhf = [
+    'fden.jpeg',
+    'ftim.jpeg',
+    'fvang.jpeg',
+    'fxanh.jpeg'
+]
+
+function chonmauf(x){
+    switch (x) {
+        case 1:
+            document.querySelector("#hinhanh-main1").src = 'chitiet/'+dsanhf[0];
+            break;
+        case 2:
+            document.querySelector("#hinhanh-main1").src = 'chitiet/'+dsanhf[1];
+            break;
+        case 3:
+            document.querySelector("#hinhanh-main1").src = 'chitiet/'+dsanhf[2];
+            break;
+        case 4:
+            document.querySelector("#hinhanh-main1").src = 'chitiet/'+dsanhf[3];
+            break;
+    }
+}
+
+
+
+// var giohangflip = localStorage.getItem('giohangflip');
+// giohangflip = JSON.parse(giohangflip);
+
+// var giohang14 = localStorage.getItem('giohang14');
+// giohang14 = JSON.parse(giohang14);
+
+// var giohang = localStorage.getItem('giohang');
+// giohang = JSON.parse(giohang);
+
+
+
+
+// loadsoluong();
+// function loadsoluong(){
+//     var sumsoluong = 0;
+//     for(var item of giohangflip){
+//         if(item.soluong){
+//             sumsoluong += item.soluong;
+            
+//         }
+//     }
+
+//     for(var item of giohang14){
+//         if(item.soluong){
+//             sumsoluong += item.soluong;
+//         }
+//     }
+
+//     for(var item of giohang){
+//         if(item.soluong){
+//             sumsoluong += item.soluong;
+//         }
+//     }
+
+//     document.querySelector("#soluong").innerText = sumsoluong;
+// }
+
+
+donwchitiet();
+
+function donwchitiet (){
+    chitiet = localStorage.getItem('chitiet1');
+    chitiet = JSON.parse(chitiet);
+    console.log(chitiet);
+}
+
+
+let temp = `
+    <div class="box1">
+    <div class="box1-top">
+        <img id="hinhanh-main1" src="${chitiet.anhto}" alt="">
+    </div>
+    <div class="box1-bottom">
+        <div>
